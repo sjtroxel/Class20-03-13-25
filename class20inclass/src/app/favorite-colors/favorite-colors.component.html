@@ -1,0 +1,19 @@
+<div class="favorite-colors">
+  <h2>Favorite Colors</h2>
+
+  <div class="color-input">
+    <input
+      [value]="newColor()"
+      (input)="newColor.set($event.target.value)"
+      placeholder="Add a new color"
+      (keyup.enter)="addColor()"
+    />
+    <button (click)="addColor()">Add</button>
+  </div>
+
+  <ul>
+    <li *ngFor="let color of favoriteColors(); let i = index">
+      {{ color }}
+    </li>
+  </ul>
+</div>

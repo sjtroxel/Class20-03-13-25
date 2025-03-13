@@ -1,0 +1,43 @@
+.favorite-colors {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.color-input {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
